@@ -1,0 +1,58 @@
+﻿@using SchoolApplication.Models
+@model List<Curso>
+
+@{
+    DateTime data = ViewBag.Data;
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+}
+@using (Html.BeginForm("CadastrarCurso", "Curso", FormMethod.Post, new { @class = "form-horizontal",@style= "margin-left:0px", @id = "meuform", enctype = "multipart/form-data" }))
+{
+    <h2 style="margin-bottom:15px">Gerenciamento de Cursos</h2>
+    @Html.ActionLink("Cadastrar Curso", "CadastrarCurso", "Curso", new { @class = "btn btn-outline-info " })
+    <a href="~/api/Curso/Cursos" class = "btn btn-outline-info ">
+        Cursos - < JSON >
+    </a>
+    
+
+
+    <table class="table table-hover table-striped"
+           style="margin-top:20px;margin-bottom:15px">
+        <tr>
+            <th>Imagem</th>
+            <th>Nome</th>
+            <th>Prof°</th>
+            <th>Vagas</th>
+            <th>Valor</th>
+            <th>Duracao</th>
+            <th></th>
+            <th></th>
+            <th></th>
+
+        </tr>
+        @foreach (Curso item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/Imagens/@item.Imagem"
+                         style="width:90px"
+                         alt="" />
+                </td>
+                <td>@item.Nome</td>
+                <td>@item.Professor</td>
+                <td>@item.QtdVagas</td>
+                <td>@item.Valor.ToString("C2")</td>
+                <td>@item.Duracao</td>
+                <td>@Html.ActionLink("Detalhes", "DetalhesCursoAdm", "Curso", new { id = item.CursoId }, new { @class = "btn btn-info" })<br />
+</td>
+                <td><a href="~/api/Curso/cursoporId/@item.CursoId" class="btn btn-info">JSON</a></td>
+                <td>@Html.ActionLink("Remover", "RemoverCurso", "Curso", new { id = item.CursoId }, new { @class = "btn btn-danger",@style="width:120px" })
+                @Html.ActionLink("Alterar", "AlterarCurso", "Curso", new { id = item.CursoId }, new { @class = "btn btn-warning", @style = "width:120px" })</td>
+
+
+            </tr>
+        }
+    </table>
+    <b>Dados atualizados: </b> @data
+
+}

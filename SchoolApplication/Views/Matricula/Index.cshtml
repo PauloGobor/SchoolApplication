@@ -1,0 +1,49 @@
+﻿@using SchoolApplication.Models
+@model List<Matricula>
+
+@{
+    DateTime data = ViewBag.Data;
+    List<Curso> cursos = ViewBag.Cursos;
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+}
+
+
+
+@Html.ActionLink("Gerenciamento de Matriculas", "Index", "Matricula", new { id = 0 }, new { @style = "margin-bottom:15px;font-size:27px" })
+<a href="~/api/Matricula/Matriculas"> < JSON > </a>
+
+<div id="Matriculas" style="margin-bottom:30px">
+    <ol class="breadcrumb">
+        @foreach (var item in cursos)
+        {
+            <li class="breadcrumb-item" >
+                @Html.ActionLink(item.Nome, "Index", "Matricula",
+                    new { id = item.CursoId }, null)
+                <a href="~/api/Matricula/MatriculasPorCurso/@item.CursoId" >< JSON ></a>
+
+            </li>
+        }
+    </ol>
+</div>
+
+
+<table class="table table-hover table-striped" style="margin-top:20px;margin-bottom:15px">
+    <tr>
+        <th>Usuario Nome</th>
+        <th>Usuario CPF</th>
+        <th>Curso</th>
+
+        <th></th>
+    </tr>
+    @foreach (Matricula item in Model)
+            {
+        <tr>
+            <td>@item.Usuario.Nome</td>
+            <td>@item.Usuario.Cpf</td>
+            <td>@item.Curso.Nome</td>
+            <td></td>
+        </tr>
+    }
+</table>
+
+<b>Dados atualizados: </b> @data

@@ -1,0 +1,37 @@
+﻿@using SchoolApplication.Models;
+@model Role
+@{
+
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+}
+
+@using (Html.BeginForm("CadastrarPerfil", "Perfil", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Cadastrar Perfil</legend>
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+
+        <div id="Nome" class="form-group">
+            @Html.LabelFor(model => model.RoleName, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.RoleName, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Nome",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.RoleName, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div id="Button" class="col-sm-11">
+            <div class="form-group">
+                <input class="btn btn-success" type="submit" value="Cadastrar" />
+            </div>
+        </div>
+
+    </fieldset>
+}

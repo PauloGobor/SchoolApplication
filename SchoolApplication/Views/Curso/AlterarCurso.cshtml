@@ -1,0 +1,149 @@
+﻿@using SchoolApplication.Models;
+@model Curso
+@{
+
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+}
+
+@using (Html.BeginForm("AlterarCurso", "Curso", FormMethod.Post, new { @class = "form-horizontal", enctype = "multipart/form-data" }))
+{
+
+    <fieldset>
+        <legend>Alterar Curso</legend>
+        @ViewBag.Cursos
+
+        @Html.HiddenFor(model => model.CursoId)
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+
+        <div id="Nome" class="form-group">
+            @Html.LabelFor(model => model.Nome, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Nome, new
+           {
+               @class = "form-control",
+               @placeholder = "Nome do Curso",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Nome, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div id="Professor" class="form-group">
+            @Html.LabelFor(model => model.Professor, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Professor, new
+           {
+               @class = "form-control",
+               @placeholder = "Nome do Professor",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Nome, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div id="Vagas" class="form-group">
+            @Html.LabelFor(model => model.QtdVagas, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.QtdVagas, new
+           {
+               @class = "form-control",
+               @placeholder = "Quantidade de Vagas",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Nome, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div id="valor" class="form-group">
+            @Html.LabelFor(model => model.Valor, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Valor, new
+           {
+               @class = "form-control",
+               @placeholder = "Valor",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Nome, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div id="DuracaoCurso" class="form-group">
+            @Html.LabelFor(model => model.Duracao, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Duracao, new
+           {
+               @class = "form-control",
+               @placeholder = "Duracao em meses",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Duracao, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*Gerar mensagens de erro nas categorais*@
+
+        <div id="Turno" class="form-group">
+            @Html.Label("Turnos", new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.DropDownList("Turnos", null, "SELECIONE", new
+           {
+               @class = "form-control",
+               @style = "width:50%"
+           })
+            </div>
+        </div>
+
+        <div id="Categorias" class="form-group">
+            @Html.Label("Categoria do Curso", new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.DropDownList("Categorias", null,"SELECIONE", new
+           {
+               @class = "form-control",
+               @style = "width:50%"
+           })
+            </div>
+        </div>
+
+        <div id="Modalidade" class="form-group">
+            @Html.Label("Modalidade do Curso", new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.DropDownList("Modalidades",null, "SELECIONE", new
+           {
+               @class = "form-control",
+               @style = "width:50%"
+           })
+            </div>
+        </div>
+
+        <div id="Descricao" class="form-group">
+            @Html.LabelFor(model => model.Descricao, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextAreaFor(model => model.Descricao, new
+           {
+               @class = "form-control",
+               @placeholder = "Digite a descricao do curso aqui...",
+               @rows = "7"
+           })
+                @Html.ValidationMessageFor(model => model.Descricao, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div id="imagem class="form-group">
+            @Html.Label("Imagem", new { @class = "control-label col-sm-2" })
+            <div class="col-sm-12">
+                <input type="file" name="fupImagem" />
+            </div>
+        </div>
+
+        <div id="Button" class="col-sm-11">
+            <div class="form-group">
+                <input class="btn btn-success" type="submit" value="Alterar" />
+            </div>
+        </div>
+    </fieldset>
+}
+
+<script type="text/javascript" src="~/scripts/cursoJS.js"></script>

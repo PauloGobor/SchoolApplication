@@ -1,0 +1,375 @@
+﻿@using SchoolApplication.Models;
+@model Usuario
+@{
+
+    
+
+}
+
+
+
+@using (Html.BeginForm("CadastrarUsuario", "Usuario", FormMethod.Post, new { @class = "form-horizontal", @id = "meuform" }))
+{
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+        <legend>Dados Usuario</legend>
+
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+        <div id="Perfil" class="form-group">
+            @Html.Label("Perfil do usuario", new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.DropDownList("Perfil", null, "SELECIONE", new
+           {
+               @class = "form-control",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Role, null, new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+    
+        <div id="NOME" class="form-group">
+            @Html.LabelFor(model => model.Nome, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Nome, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Nome do Usuario",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Nome, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div id="CPF" class="form-group">
+            @Html.LabelFor(model => model.Cpf, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Cpf, null, new
+           {
+               @class = "form-control",
+               @placeholder = "CPF",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Cpf, null, new { @class = "text-danger" })
+
+            </div>
+
+        </div>
+
+        <div id="DataNascimento" class="form-group">
+            @Html.LabelFor(model => model.DataNasc, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.DataNasc, null, new
+           {
+               @class = "form-control",
+               @placeholder = "dd/mm/aaaa",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.DataNasc, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div id="Sexoo" class="form-group">
+            @Html.LabelFor(model => model.Sexo, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-7">
+                @Html.RadioButtonFor(model => model.Sexo, "M", new { @id = "Masculino", })
+                @Html.Label("Masculino", new { @class = "control-label col-sm-2" })
+                @Html.RadioButtonFor(model => model.Sexo, "F", new { @id = "Feminino" })
+                @Html.Label("Feminino", new { @class = "control-label col-sm-2" })
+                @Html.ValidationMessageFor(model => model.Sexo, null, new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+
+        <div id="Telefonee" class="form-group">
+            @Html.LabelFor(model => model.Telefone, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Telefone, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Telefone",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Telefone, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+
+        <div id="Emailll" class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Email, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Email",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+
+
+
+        <div id="Senhaa" class="form-group">
+            @Html.LabelFor(model => model.Senha, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.PasswordFor(model => model.Senha, new
+           {
+               @class = "form-control",
+               @placeholder = "******",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Senha, null, new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+
+        <div id="ConfirmaaSenhaa" class="form-group">
+            @Html.LabelFor(model => model.ConfirmaSenha, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.PasswordFor(model => model.ConfirmaSenha, new
+           {
+               @class = "form-control",
+               @placeholder = "******",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.ConfirmaSenha, null, new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Endereço</legend>
+        <div id="divCep" class="form-group">
+            @Html.LabelFor(model => model.Endereco.Cep, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Endereco.Cep, null, new
+           {
+               @class = "form-control",
+               @placeholder = "",
+               @style = "width:16%"
+           })
+                @Html.ValidationMessageFor(model => model.Endereco.Cep, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" id="dadosPessoas">
+
+                <div id="divCep_cidade" class="form-group">
+                    @Html.LabelFor(model => model.Endereco.Cidade, new { @class = "control-label col-sm-2" })
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(model => model.Endereco.Cidade, null, new
+                   {
+                       @class = "form-control",
+                       @placeholder = "Cidade",
+                       @style = "width:100%"
+                   })
+                        @Html.ValidationMessageFor(model => model.Endereco.Cidade, null, new { @class = "text-danger" })
+
+                    </div>
+                </div>
+
+                <div id="divCep_estado" class="form-group">
+                    @Html.LabelFor(model => model.Endereco.Estado, new { @class = "control-label col-sm-2" })
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(model => model.Endereco.Estado, null, new
+                   {
+                       @class = "form-control",
+                       @placeholder = "UF",
+                       @style = "width:20%"
+
+                   })
+                        @Html.ValidationMessageFor(model => model.Endereco.Estado, null, new { @class = "text-danger" })
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div_rua" class="form-group">
+            @Html.LabelFor(model => model.Endereco.Rua, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Endereco.Rua, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Logradouro",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Endereco.Rua, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        @* Aqui ficara o resto dos campos do Endereco *@
+        <div id="divCep_bairro" class="form-group">
+            @Html.LabelFor(model => model.Endereco.Bairro, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Endereco.Bairro, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Bairro",
+               @style = "width:30%"
+           })
+                @Html.ValidationMessageFor(model => model.Endereco.Bairro, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div id="divCep_nume" class="form-group">
+            @Html.LabelFor(model => model.Endereco.Numero, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Endereco.Numero, null, new
+           {
+               @class = "form-control",
+               @placeholder = "N°",
+               @style = "width:13%"
+           })
+                @Html.ValidationMessageFor(model => model.Endereco.Numero, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div id="divCep_complemento" class="form-group">
+            @Html.LabelFor(model => model.Endereco.Complemento, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Endereco.Complemento, null, new
+           {
+               @class = "form-control",
+               @placeholder = "Complemento",
+               @style = "width:50%"
+           })
+                @Html.ValidationMessageFor(model => model.Endereco.Complemento, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+    </fieldset>
+
+
+    <div id="Button" class="col-sm-11">
+        <div class="form-group">
+            <input class="btn btn-success" type="submit" value="Cadastrar" />
+        </div>
+    </div>
+
+
+
+
+}
+
+
+
+<script src="~/scripts/Inscricao-valida.js"></script>
+<script type="text/javascript">
+
+    $("#Cpf").mask("999.999.999-99");
+    $("#DataNasc").mask("99/99/9999");
+    $("#Telefone").mask("(99) 9999-9999");
+    $("#Endereco_Cep").mask("00000-000");
+
+
+    $('#meuform').validate({
+
+        rules: {
+            'Nome': {
+                required: true,
+                minlength: 3
+            },
+            'Email': {
+                email: true,
+                required:true
+
+            },
+            'Cpf': {
+                Cpf: true,
+                required: true
+
+            },
+            'Endereco_Cep': {
+                required: true,
+                Number: true
+
+            },
+            'Senha': {
+                required: true,
+                rangelength: [4, 15]
+
+            },
+            'ConfirmaSenha': {
+                required: true,
+                equalTo: '#Senha'
+
+
+            }
+        },
+        messages: {
+            'Nome': {
+                required: 'Digite um Nome',
+                minlength: 'Por favor, insira pelo menos 3 caracteres'
+            },
+            'Email': {
+                email: 'Digite um email valido',
+                required: 'Digite um email'
+
+            },
+            'Senha': {
+                required: 'Digite uma Senha',
+
+                rangelength: 'Senha deve ter entre 4 e 15 caracteres'
+
+            },
+            'ConfirmaSenha': {
+                required: 'Digite a confirmação da Senha',
+                equalTo: 'As senhas devem ser iguais'
+            },
+            'Cpf': {
+                required: 'Digite seu CPF',
+                cpf: 'CPF Invalido'
+            },
+
+        }
+
+    });
+
+
+    jQuery.validator.addMethod("Cpf", function (value, element) {
+        value = jQuery.trim(value);
+
+        value = value.replace('.', '');
+        value = value.replace('.', '');
+        cpf = value.replace('-', '');
+        while (cpf.length < 11) cpf = "0" + cpf;
+        var expReg = /^0+$|^1+$|^2+$|^3+$|^4+$|^5+$|^6+$|^7+$|^8+$|^9+$/;
+        var a = [];
+        var b = new Number;
+        var c = 11;
+        for (i = 0; i < 11; i++) {
+            a[i] = cpf.charAt(i);
+            if (i < 9) b += (a[i] * --c);
+        }
+        if ((x = b % 11) < 2) { a[9] = 0 } else { a[9] = 11 - x }
+        b = 0;
+        c = 11;
+        for (y = 0; y < 10; y++) b += (a[y] * c--);
+        if ((x = b % 11) < 2) { a[10] = 0; } else { a[10] = 11 - x; }
+
+        var retorno = true;
+        if ((cpf.charAt(9) != a[9]) || (cpf.charAt(10) != a[10]) || cpf.match(expReg)) retorno = false;
+
+        return this.optional(element) || retorno;
+
+    }, "Informe um CPF válido");
+
+</script>
+

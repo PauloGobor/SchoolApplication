@@ -1,0 +1,58 @@
+﻿@using SchoolApplication.Models;
+@model Curso
+
+@{
+
+    ViewBag.Title = "InscricaoCurso";
+   // Usuario usuario = ViewBag.Usuario;
+
+
+}
+
+@using (Html.BeginForm("Inscricao", "Home", FormMethod.Post, new { @class = "form-horizontal", @id = "meuform" }))
+{
+
+    <h2>Inscricao</h2>
+
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    //
+    // danger... exceptiion..... para exibir aluno e curso
+    //
+    <br />
+    // aqui quero detalhar o curso e o aluno para confirmar
+    <table style="margin-left: 30px">
+        <tr>
+            <td colspan="2">
+                <h4>Curso de @Model.Nome</h4>
+                <h4>Categoria: @Model.Categoria.Nome</h4>
+                <h4>Turno: @Model.Turno.Nome</h4>
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td style="width:200px">
+                <img src="~/Imagens/@Model.Imagem"
+                     class="img-thumbnail" />
+            </td>
+            @{
+                var parcela = Model.Valor / Model.Duracao;
+            }
+            <td style="vertical-align: top; padding-left: 30px;color:black;font-size:medium"><br />
+                <b >Valor Total: </b>@Model.Valor.ToString("C2") ou @Model.Duracao x @parcela.ToString("C2")<br />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <div id="divrec" class="g-recaptcha" data-sitekey="6LcEknwUAAAAAG7Zf3sEqpnrnoRIEP5a_TYxvoT_"></div>
+
+            <br />
+
+    <div id="Button" >
+        <div class="form-group">
+            <input class="btn btn-success" type="submit" value="Confirmar"/>
+        </div>
+    </div>
+}
+
+<script src='https://www.google.com/recaptcha/api.js' type="text/javascript"></script>
+

@@ -1,0 +1,82 @@
+﻿@using SchoolApplication.Models
+@model List<Curso>
+
+@{
+    List<Categoria> categorias = ViewBag.Categorias;
+    // List<Modalidade> modalidades = ViewBag.Modalidades;
+}
+
+
+
+<div id="Categorias" style="margin-bottom:30px">
+    <ol class="breadcrumb">
+        <h5>Categorias:</h5> @foreach (var item in categorias)
+            {
+            <li class="breadcrumb-item" style="font-size:15px">
+                @Html.ActionLink(item.Nome, "Index", "Home",
+                        new { id = item.CategoriaId }, null)
+            </li>
+        }
+    </ol>
+</div>
+
+
+@*<div id="Modalidades" style="margin-top:5px">
+        <ol class="breadcrumb">
+           <h5>Modalidades:</h5> @foreach (var item in modalidades)
+                {
+                <li class="breadcrumb-item">
+                    @Html.ActionLink(item.Nome, "Index", "Home",
+                            new { id = item.ModalidadeId }, null)
+                </li>
+            }
+        </ol>
+    </div>*@
+
+
+<div class="row" id="Cursos">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-3" style="text-align:center; margin-bottom:30px">
+            <img src="~/Imagens/@item.Imagem"
+                 style="width:250px;height:200px;margin-bottom:5px"
+                 alt="@item.Descricao"
+                 class="img-thumbnail" /><br />
+            @Html.ActionLink(item.Nome, "DetalhesCurso", "Home", new { id = item.CursoId }, null)<br />
+            <b>Preço: </b> @item.Valor.ToString("C2")<br />
+            @Html.ActionLink("Matricule-se", "Inscricao", "Home",
+            new { id = item.CursoId }, new { @class = "btn btn-info" })
+        </div>
+    }
+</div>
+
+
+@*<script>
+        $(document).ready(function () {
+
+            $('#link').on('change', function () {
+                var url = $(this).val();
+                if (url) {
+                    window.location.href = link;
+                }
+                return true;
+            });
+        });
+    </script>*@
+
+@*
+        @{
+        <div id="categorias" class="form-group">
+        @Html.Label("Categoria", new { @class = "control-label col-sm-2" })
+        <div class="col-sm-10">
+            @Html.DropDownList("Categorias", null, "SELECIONE", new
+       {
+           @class = "btn btn-info",
+           @style = "width:20%",
+           @id = "link"
+       })
+        </div>
+    </div>
+
+
+*@

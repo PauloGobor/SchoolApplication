@@ -1,0 +1,67 @@
+﻿@using SchoolApplication.Models
+@model Turno
+@{
+
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+}
+@using (Html.BeginForm("AlterarTurno", "Turno", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Cadastrar Turno</legend>
+
+        @Html.HiddenFor(model => model.TurnoId)
+
+        @*<div id="Id" class="form-group">
+                @Html.Label("Id", new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.TextBox("txtId", produto.CategoriaId,
+                            new
+                            {
+                                @class = "form-control",
+                                @readonly = "",
+                                @style = "width:50%"
+                            })
+                </div>
+            </div>*@
+
+        <div id="Nome" class="form-group">
+            @Html.LabelFor(model => model.Nome, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Nome,
+                        new
+                        {
+                            @class = "form-control",
+                            @placeholder = "Nome do Turno",
+                            @style = "width:50%"
+                        })
+            </div>
+        </div>
+
+        <div id="Descricao" class="form-group">
+            @Html.LabelFor(model => model.Descricao, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextAreaFor(model => model.Descricao, new
+           {
+               @class = "form-control",
+               @placeholder = "Digite a descricao da modalidade aqui...",
+               @rows = "7"
+
+           })
+                @Html.ValidationMessageFor(model => model.Descricao, null, new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+
+
+        <div id="Button" class="col-sm-11">
+            <div class="form-group">
+                <input class="btn btn-success" type="submit" value="Alterar" />
+            </div>
+        </div>
+    </fieldset>
+}
+
+

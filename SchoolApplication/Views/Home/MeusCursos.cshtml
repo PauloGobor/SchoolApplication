@@ -1,0 +1,31 @@
+﻿@using SchoolApplication.Models;
+@model List<Matricula>
+@{
+    ViewBag.Title = "MeusCursos";
+}
+
+<h2>MeusCursos</h2>
+@foreach (var item in Model)
+{
+    <br />
+    <h2>@item.Curso.Nome</h2>
+    <table style="margin-left: 30px">
+
+        <tr>
+            <td style="width:200px">
+                <img src="~/Imagens/@item.Curso.Imagem"
+                     class="img-thumbnail" />
+            </td>
+
+            <td style="vertical-align: top; padding-left: 30px;color:black;font-size:medium">
+                <br />
+
+        <b>Categoria: @item.Curso.Categoria.Nome</b><br />
+        <b>Turno: @item.Curso.Turno.Nome</b>
+
+
+
+    </table>
+}
+
+

@@ -1,0 +1,43 @@
+﻿@using SchoolApplication.Models;
+@model Curso
+
+
+<div class="row">
+
+    
+        <div class="card col-sm-7">
+            <h3 class="card-header" style="color:black">Categoria: @Model.Categoria.Nome</h3>
+            <div class="card-body">
+                <h3 class="card-title"style="color:black">@Model.Nome</h3>
+                <h6 class="card-subtitle text-muted">Turno: @Model.Turno.Nome</h6>
+            </div>
+            <img src="~/Imagens/@Model.Imagem"
+                 style="width:500px;height:auto"
+                 alt="@Model.Descricao" />
+            <div class="card-body">
+
+                <p class="card-text"style="color:black">Descricao: @Model.Descricao</p>
+            </div>
+
+            <div class="card-body">
+                <div id="Button" class="col-sm-6">
+                    <div class="form-group">
+                        @Html.ActionLink("Matricule-se", "Inscricao", "Home",
+            new { id = Model.CursoId }, new { @class = "btn btn-info", @style = "margin-left:5" })
+
+
+                    </div>
+                </div>
+
+            </div>
+            @{ 
+                var parcela = Model.Valor/ Model.Duracao;
+            }
+            <div class="card-footer text-muted">
+                <a style="color:black">Valor a vista: @Model.Valor.ToString("C2") ou @Model.Duracao x @parcela.ToString("C2")</a>
+
+            </div>
+
+        </div>
+    
+</div>

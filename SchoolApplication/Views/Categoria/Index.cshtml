@@ -1,0 +1,32 @@
+﻿@using SchoolApplication.Models
+@model List<Categoria>
+
+@{
+    DateTime data = ViewBag.Data;
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+}
+
+<h2 style="margin-bottom:15px">Gerenciamento de Categorias</h2>
+@Html.ActionLink("Cadastrar Categoria", "CadastrarCategoria", "Categoria", new { @class = "btn btn-outline-info " })
+
+<table class="table table-hover table-striped" style="margin-top:20px;margin-bottom:15px">
+    <tr>
+        <th>Nome</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (Categoria item in Model)
+            {
+        <tr>
+            <td>@item.Nome</td>
+            <td>
+                @Html.ActionLink("Remover", "Remover", "Categoria", new { id = item.CategoriaId }, new { @class = "btn btn-danger" })
+            </td>
+            <td>
+                @Html.ActionLink("Alterar", "AlterarCategoria", "Categoria", new { id = item.CategoriaId }, new { @class = "btn btn-warning" })
+            </td>
+        </tr>
+    }
+</table>
+
+<b>Dados atualizados: </b> @data

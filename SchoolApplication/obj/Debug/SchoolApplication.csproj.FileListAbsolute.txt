@@ -1,0 +1,240 @@
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\ApplicationInsights.config
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\csc.exe
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\vbc.exe
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll.config
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\SchoolApplication.pdb
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Razor.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Razor.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.xml
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csprojResolveAssemblyReference.cache
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.dll
+C:\Users\Paulo Eduardo Gobor\Documents\Visual Studio 2015\Projects\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.pdb
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\ApplicationInsights.config
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\csc.exe
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\vbc.exe
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll.config
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\SchoolApplication.pdb
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\EntityFramework.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Razor.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\EntityFramework.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Razor.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.pdb
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csproj.GenerateResource.Cache
+E:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csprojResolveAssemblyReference.cache
+E:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.dll
+E:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.pdb
+E:\SchoolApplication\SchoolApplication\bin\ApplicationInsights.config
+E:\SchoolApplication\SchoolApplication\bin\roslyn\csc.exe
+E:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SchoolApplication\SchoolApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\SchoolApplication\SchoolApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\SchoolApplication\SchoolApplication\bin\roslyn\vbc.exe
+E:\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe
+E:\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll.config
+E:\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll
+E:\SchoolApplication\SchoolApplication\bin\SchoolApplication.pdb
+E:\SchoolApplication\SchoolApplication\bin\EntityFramework.dll
+E:\SchoolApplication\SchoolApplication\bin\EntityFramework.SqlServer.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Razor.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.dll
+E:\SchoolApplication\SchoolApplication\bin\EntityFramework.xml
+E:\SchoolApplication\SchoolApplication\bin\EntityFramework.SqlServer.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Razor.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.xml
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:\SchoolApplication\SchoolApplication\bin\Microsoft.VisualStudio.DebuggerVisualizers.xml
+E:\SchoolApplication\SchoolApplication\bin\Newtonsoft.Json.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Net.Http.Formatting.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Http.dll
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Http.WebHost.dll
+E:\SchoolApplication\SchoolApplication\bin\Newtonsoft.Json.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Net.Http.Formatting.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Http.xml
+E:\SchoolApplication\SchoolApplication\bin\System.Web.Http.WebHost.xml
+D:\SchoolApplication\SchoolApplication\bin\ApplicationInsights.config
+D:\SchoolApplication\SchoolApplication\bin\roslyn\csc.exe
+D:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SchoolApplication\SchoolApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SchoolApplication\SchoolApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\SchoolApplication\SchoolApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\SchoolApplication\SchoolApplication\bin\roslyn\vbc.exe
+D:\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe
+D:\SchoolApplication\SchoolApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll.config
+D:\SchoolApplication\SchoolApplication\bin\SchoolApplication.dll
+D:\SchoolApplication\SchoolApplication\bin\SchoolApplication.pdb
+D:\SchoolApplication\SchoolApplication\bin\EntityFramework.dll
+D:\SchoolApplication\SchoolApplication\bin\EntityFramework.SqlServer.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.VisualStudio.DebuggerVisualizers.dll
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\SchoolApplication\SchoolApplication\bin\Newtonsoft.Json.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Net.Http.Formatting.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Http.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Http.WebHost.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Razor.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.dll
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.dll
+D:\SchoolApplication\SchoolApplication\bin\EntityFramework.xml
+D:\SchoolApplication\SchoolApplication\bin\EntityFramework.SqlServer.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.DependencyCollector.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.Web.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.AI.WindowsServer.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.ApplicationInsights.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SchoolApplication\SchoolApplication\bin\Microsoft.VisualStudio.DebuggerVisualizers.xml
+D:\SchoolApplication\SchoolApplication\bin\Newtonsoft.Json.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Net.Http.Formatting.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Http.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Http.WebHost.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Razor.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Deployment.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Webpages.Razor.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Helpers.xml
+D:\SchoolApplication\SchoolApplication\bin\System.Web.Mvc.xml
+D:\SchoolApplication\SchoolApplication\bin\pt-BR\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csprojResolveAssemblyReference.cache
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csproj.GenerateResource.Cache
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.dll
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.pdb
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.CreateDatabse.resources
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.RoleDB.resources
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.RoleDB2.resources
+D:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.RoleDB3.resources
+E:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.CreateDB.resources
+E:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csproj.GenerateResource.Cache
+E:\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.DescricaoNoTurno.resources
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Newtonsoft.Json.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Http.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Microsoft.VisualStudio.DebuggerVisualizers.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\Newtonsoft.Json.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Http.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\bin\pt-BR\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csprojAssemblyReference.cache
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.CreateDB.resources
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.Migrations.DescricaoNoTurno.resources
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Eduardo Gobor\Desktop\SchoolApplication\SchoolApplication\obj\Debug\SchoolApplication.csproj.CopyComplete

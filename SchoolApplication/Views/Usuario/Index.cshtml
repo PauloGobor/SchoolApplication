@@ -1,0 +1,43 @@
+﻿@using SchoolApplication.Models
+@model List<Usuario>
+
+@{
+    DateTime data = ViewBag.Data;
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+
+}
+
+
+<h2 style="margin-bottom:15px">Gerenciamento de Usuarios</h2>
+
+@*@Html.ActionLink("Cadastrar Usuario", "Cadastrarusuario", "Usuario")*@
+@*@Html.ActionLink("Cadastrar Usuario", "Cadastrarusuario", "Usuario")*@
+
+
+
+<table class="table table-hover table-striped" style="margin-top:20px;margin-bottom:15px">
+    <tr>
+        <th>CPF</th>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Sexo</th>
+        <th>DataNasc</th>
+        <th>Perfil</th>
+        <th></th>
+    </tr>
+    @foreach (Usuario item in Model)
+            {
+        <tr>
+            <td>@item.Cpf</td>
+            <td>@item.Nome</td>
+            <td>@item.Telefone</td>
+            <td>@item.Sexo</td>
+            <td>@item.DataNasc.ToShortDateString()</td>
+            <td>@item.Role.RoleName</td>
+            <td></td>
+        </tr>
+    }
+</table>
+
+<b>Dados atualizados: </b> @data

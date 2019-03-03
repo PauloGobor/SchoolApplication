@@ -1,0 +1,37 @@
+﻿@using SchoolApplication.Models
+@model List<Turno>
+
+@{
+    DateTime data = ViewBag.Data;
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+}
+
+
+<h2 style="margin-bottom:15px">Gerenciamento de Turnos</h2>
+@Html.ActionLink("Cadastrar Turno", "CadastrarTurno", "Turno", new { @class = "btn btn-outline-info " })
+
+
+<table class="table table-hover table-striped" style="margin-top:20px;margin-bottom:15px">
+    <tr>
+        <th>Nome</th>
+        <th>Descricao</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (Turno item in Model)
+            {
+        <tr>
+            <td>@item.Nome</td>
+            <td>@item.Descricao</td>
+            <td>
+                @Html.ActionLink("Remover", "Remover", "Turno", new { id = item.TurnoId }, new { @class = "btn btn-danger" })
+            </td>
+            <td>
+                @Html.ActionLink("Alterar", "AlterarTurno", "Turno", new { id = item.TurnoId }, new { @class = "btn btn-warning" })
+            </td>
+        </tr>
+    }
+</table>
+
+<b>Dados atualizados: </b> @data

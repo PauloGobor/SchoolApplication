@@ -1,0 +1,32 @@
+﻿@using SchoolApplication.Models
+@model List<Role>
+
+@{
+    DateTime data = ViewBag.Data;
+    Layout = "~/Views/Shared/_LayoutAdm.cshtml";
+
+}
+
+
+<h2 style="margin-bottom:15px">Gerenciamento de Perfil</h2>
+
+@Html.ActionLink("Cadastrar Perfil", "CadastrarPerfil", "Perfil", new { @class = "btn btn-outline-info " })
+
+
+<table class="table table-hover table-striped" style="margin-top:20px;margin-bottom:15px">
+    <tr>
+        <th>Perfil</th>
+
+        <th></th>
+    </tr>
+    @foreach (Role item in Model)
+            {
+        <tr>
+            <td>@item.RoleName</td>
+
+            <td></td>
+        </tr>
+    }
+</table>
+
+<b>Dados atualizados: </b> @data
